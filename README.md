@@ -12,7 +12,7 @@ ros2 launch launch/putm_ws.launch.py
 
 Publish a message to the rtd topic
 ```bash
-ros2 topic pub putm_vcl/rtd putm_vcl_interfaces/msg/Rtd "{rtd_state: 1}"
+ros2 topic pub putm_vcl/rtd putm_vcl_interfaces/msg/Rtd "{state: 1}"
 ```
 
 Publish a message to the frontbox topic
