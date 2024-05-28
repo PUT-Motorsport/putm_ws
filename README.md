@@ -15,7 +15,7 @@ Publish a message to the rtd topic
 ros2 topic pub putm_vcl/rtd putm_vcl_interfaces/msg/Rtd "{state: 1}"
 ```
 
-Publish a message to the frontbox topic
+Publish a message to the frontbox_driver_input topic
 ```bash
-ros2 topic pub putm_vcl/frontbox putm_vcl_interfaces/Frontbox "{pedal_position: 0.5}"
+ros2 topic pub -r 100 putm_vcl/frontbox_driver_input putm_vcl_interfaces/FrontboxDriverInput "{pedal_position: 0.5}"
 ```
