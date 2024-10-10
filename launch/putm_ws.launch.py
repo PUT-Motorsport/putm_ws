@@ -31,17 +31,6 @@ def generate_launch_description():
                         ]
                     )
                 )
-            ),
-            IncludeLaunchDescription(
-                PythonLaunchDescriptionSource(
-                    PathJoinSubstitution(
-                        [
-                            FindPackageShare("ros2_xsens_mti_driver"),
-                            "launch",
-                            "xsens_mti_node.launch.py",
-                        ]
-                    )
-                )
-            ),
+            )
         ]
     )
