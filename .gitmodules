@@ -7,3 +7,6 @@
 [submodule "src/ros2_xsens_mti_driver"]
 	path = src/ros2_xsens_mti_driver
 	url = https://github.com/DEMCON/ros2_xsens_mti_driver.git
+[submodule "src/vectornav"]
+	path = src/vectornav
+	url = https://github.com/F1tenth-Project-Lutututu/vectornav.git
