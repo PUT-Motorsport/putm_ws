@@ -11,3 +11,6 @@
 	path = src/vectornav
 	url = https://github.com/dawonn/vectornav.git
 	branch = ros2
+[submodule "src/putm_lap_timer"]
+	path = src/putm_lap_timer
+	url = git@github.com:PUT-Motorsport/putm_lap_timer.git
