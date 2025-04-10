@@ -31,6 +31,17 @@ def generate_launch_description():
                         ]
                     )
                 )
+            ),
+            IncludeLaunchDescription(
+                PythonLaunchDescriptionSource(
+                    PathJoinSubstitution(
+                        [
+                            FindPackageShare("putm_lap_timer"),
+                            "launch",
+                            "putm_lap_timer.launch.py",
+                        ]
+                    )
+                )
             )
         ]
     )
